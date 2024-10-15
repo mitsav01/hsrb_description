@@ -57,6 +57,19 @@ POSSIBILITY OF SUCH DAMAGE.
           <hand_r_distal_joint p="20.0" d="8.0"/>
         </parameters>
       </plugin>
+      <plugin name="grasp_hack_plugin" filename="libtmc_gazebo_grasp_hack_hrh_gripper.so">
+        <grasp_check>
+          <attach_steps>1</attach_steps>
+          <detach_steps>2</detach_steps>
+          <min_contact_count>1</min_contact_count>
+          <max_attach_weight>1.2</max_attach_weight>
+        </grasp_check>
+        <gripper_link>hand_r_distal_link</gripper_link>
+        <gripper_link>hand_l_distal_link</gripper_link>
+        <gripper_link>hand_r_spring_proximal_link</gripper_link>
+        <gripper_link>hand_l_spring_proximal_link</gripper_link>
+        <palm_link>wrist_ft_sensor_frame</palm_link>
+      </plugin>
     </gazebo>
     <ros2_control name="GazeboSystem" type="system">
       <hardware>
@@ -96,11 +109,11 @@ POSSIBILITY OF SUCH DAMAGE.
       <xacro:gazebo_position_joint name="head_tilt_joint" p_gain="1200.0" i_gain="0.0" d_gain="10.0"/>
       <xacro:gazebo_position_joint name="head_pan_joint" p_gain="1200.0" i_gain="0.0" d_gain="10.0"/>
       <xacro:gazebo_position_joint name="arm_lift_joint" p_gain="900.0" i_gain="200.0" d_gain="100.0"/>
-      <xacro:gazebo_position_joint name="arm_flex_joint" p_gain="2000.0" i_gain="10.0" d_gain="20.0"/>
+      <xacro:gazebo_position_joint name="arm_flex_joint" p_gain="2000.0" i_gain="100.0" d_gain="20.0"/>
       <xacro:gazebo_position_joint name="arm_roll_joint" p_gain="1000.0" i_gain="10.0" d_gain="1.0"/>
       <xacro:gazebo_position_joint name="wrist_flex_joint" p_gain="900.0" i_gain="1.0" d_gain="30.0"/>
       <xacro:gazebo_position_joint name="wrist_roll_joint" p_gain="900.0" i_gain="1.0" d_gain="10.0"/>
-      <xacro:gazebo_position_joint name="base_roll_joint" p_gain="900.0" i_gain="200.0" d_gain="100.0"/>
+      <xacro:gazebo_position_joint name="base_roll_joint" p_gain="1000.0" i_gain="1.0" d_gain="10.0"/>
       <xacro:gazebo_velocity_joint name="base_r_drive_wheel_joint" p_gain="35.0" i_gain="0.5" d_gain="0.0"/>
       <xacro:gazebo_velocity_joint name="base_l_drive_wheel_joint" p_gain="35.0" i_gain="0.5" d_gain="0.0"/>
       <xacro:gazebo_read_only_joint name="hand_motor_joint" />
