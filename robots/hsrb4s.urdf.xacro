@@ -41,7 +41,7 @@ POSSIBILITY OF SUCH DAMAGE.
     <xacro:include filename="$(find hsrb_description)/urdf/hand_v0/hand.urdf.xacro" />
 
     <xacro:arg name="gazebo_sim" default="False"/>
-    <xacro:arg name="rviz_sim" default="False"/>
+    <xacro:arg name="rviz_sim" default="True"/>
 
     <xacro:arg name="personal_name" default=""/>
     <xacro:arg name="ground_truth_xyz_offset" default="0.0\ 0.0\ 0.0"/>
@@ -88,6 +88,6 @@ POSSIBILITY OF SUCH DAMAGE.
 
     <xacro:if value="$(arg rviz_sim)">
       <xacro:include filename="$(find hsrb_description)/urdf/ros2_control.rviz.xacro" />
-      <xacro:ros2_contorl_rviz/>
+      <xacro:ros2_control_rviz/>
     </xacro:if>
 </robot>

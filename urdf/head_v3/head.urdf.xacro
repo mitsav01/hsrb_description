@@ -55,12 +55,12 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v3/head_pan.dae" />
+                    <mesh filename="package://hsrb_description/meshes/head_v3/head_pan.dae" />
                 </geometry>
             </visual>
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v3/head_pan.stl" />
+                    <mesh filename="package://hsrb_description/meshes/head_v3/head_pan.stl" />
                 </geometry>
             </collision>
         </link>
@@ -83,12 +83,12 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v3/head.dae" />
+                    <mesh filename="package://hsrb_description/meshes/head_v3/head.dae" />
                 </geometry>
             </visual>
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v3/head.stl" />
+                    <mesh filename="package://hsrb_description/meshes/head_v3/head.stl" />
                 </geometry>
             </collision>
         </link>

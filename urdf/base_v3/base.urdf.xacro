@@ -162,12 +162,12 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/base_v3/bumper.dae" />
+                    <mesh filename="package://hsrb_description/meshes/base_v3/bumper.dae" />
                 </geometry>
             </visual>
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/base_v3/bumper.stl" />
+                    <mesh filename="package://hsrb_description/meshes/base_v3/bumper.stl" />
                 </geometry>
             </collision>
         </link>
@@ -192,22 +192,22 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/base_v3/base_light.dae" />
+                    <mesh filename="package://hsrb_description/meshes/base_v3/base_light.dae" />
                 </geometry>
             </visual>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/base_v3/body_light.dae" />
+                    <mesh filename="package://hsrb_description/meshes/base_v3/body_light.dae" />
                 </geometry>
             </visual>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/base_v3/torso_base.dae" />
+                    <mesh filename="package://hsrb_description/meshes/base_v3/torso_base.dae" />
                 </geometry>
             </visual>
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/base_v3/base.stl" />
+                    <mesh filename="package://hsrb_description/meshes/base_v3/base.stl" />
                 </geometry>
             </collision>
         </link>

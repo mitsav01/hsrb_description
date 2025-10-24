@@ -55,13 +55,13 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v1/head_pan.dae" />
+                    <mesh filename="package://hsrb_description/meshes/head_v1/head_pan.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v1/head_pan.stl" />
+                    <mesh filename="package://hsrb_description/meshes/head_v1/head_pan.stl" />
                 </geometry>
             </collision>
         </link>
@@ -84,27 +84,27 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v1/head_upper.dae" />
+                    <mesh filename="package://hsrb_description/meshes/head_v1/head_upper.dae" />
                 </geometry>
             </visual>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v1/head_tilt.dae" />
+                    <mesh filename="package://hsrb_description/meshes/head_v1/head_tilt.dae" />
                 </geometry>
             </visual>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v1/tablet_base.dae" />
+                    <mesh filename="package://hsrb_description/meshes/head_v1/tablet_base.dae" />
                 </geometry>
             </visual>
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v1/head.stl" />
+                    <mesh filename="package://hsrb_description/meshes/head_v1/head.stl" />
                 </geometry>
             </collision>
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/head_v1/tablet.stl" />
+                    <mesh filename="package://hsrb_description/meshes/head_v1/tablet.stl" />
                 </geometry>
             </collision>
         </link>

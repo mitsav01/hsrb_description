@@ -52,7 +52,7 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/wrist_v1/wrist_flex.dae" />
+                    <mesh filename="package://hsrb_description/meshes/wrist_v1/wrist_flex.dae" />
                 </geometry>
                 <material name="body_sub" />
             </visual>
@@ -107,13 +107,13 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/wrist_v1/wrist_roll.dae" />
+                    <mesh filename="package://hsrb_description/meshes/wrist_v1/wrist_roll.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/wrist_v1/wrist_roll.stl" />
+                    <mesh filename="package://hsrb_description/meshes/wrist_v1/wrist_roll.stl" />
                 </geometry>
             </collision>
         </link>

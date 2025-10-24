@@ -77,13 +77,13 @@ POSSIBILITY OF SUCH DAMAGE.
 
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v1/palm.dae" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v1/palm.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v1/palm.stl" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v1/palm.stl" />
                 </geometry>
             </collision>
         </link>
@@ -199,13 +199,13 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v1/l_proximal.dae" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v1/l_proximal.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v1/l_proximal.stl" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v1/l_proximal.stl" />
                 </geometry>
             </collision>
         </link>
@@ -225,13 +225,13 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v1/l_distal.dae" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v1/l_distal.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v1/l_distal.stl" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v1/l_distal.stl" />
                 </geometry>
             </collision>
         </link>
@@ -286,13 +286,13 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v1/r_proximal.dae" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v1/r_proximal.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v1/r_proximal.stl" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v1/r_proximal.stl" />
                 </geometry>
             </collision>
         </link>
@@ -312,13 +312,13 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v1/r_distal.dae" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v1/r_distal.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v1/r_distal.stl" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v1/r_distal.stl" />
                 </geometry>
             </collision>
         </link>

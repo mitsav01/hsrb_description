@@ -51,13 +51,13 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/arm_v1/shoulder.dae" />
+                    <mesh filename="package://hsrb_description/meshes/arm_v1/shoulder.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/arm_v1/shoulder.stl" />
+                    <mesh filename="package://hsrb_description/meshes/arm_v1/shoulder.stl" />
                 </geometry>
             </collision>
         </link>
@@ -80,13 +80,13 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/arm_v1/arm_flex.dae" />
+                    <mesh filename="package://hsrb_description/meshes/arm_v1/arm_flex.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/arm_v1/arm_flex.stl" />
+                    <mesh filename="package://hsrb_description/meshes/arm_v1/arm_flex.stl" />
                 </geometry>
             </collision>
         </link>
@@ -109,13 +109,13 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/arm_v1/arm_roll.dae" />
+                    <mesh filename="package://hsrb_description/meshes/arm_v1/arm_roll.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/arm_v1/arm_roll.stl" />
+                    <mesh filename="package://hsrb_description/meshes/arm_v1/arm_roll.stl" />
                 </geometry>
             </collision>
         </link>

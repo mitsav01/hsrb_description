@@ -49,13 +49,13 @@
 
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v0/palm_light.dae" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v0/palm_light.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v0/palm.stl" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v0/palm.stl" />
                 </geometry>
             </collision>
         </link>
@@ -171,13 +171,13 @@
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v0/l_proximal.dae" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v0/l_proximal.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v0/l_proximal.stl" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v0/l_proximal.stl" />
                 </geometry>
             </collision>
         </link>
@@ -197,13 +197,13 @@
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v0/l_distal.dae" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v0/l_distal.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v0/l_distal.stl" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v0/l_distal.stl" />
                 </geometry>
             </collision>
         </link>
@@ -258,13 +258,13 @@
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v0/r_proximal.dae" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v0/r_proximal.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v0/r_proximal.stl" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v0/r_proximal.stl" />
                 </geometry>
             </collision>
         </link>
@@ -284,13 +284,13 @@
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v0/r_distal.dae" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v0/r_distal.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/hand_v0/r_distal.stl" />
+                    <mesh filename="package://hsrb_description/meshes/hand_v0/r_distal.stl" />
                 </geometry>
             </collision>
         </link>

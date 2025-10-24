@@ -52,13 +52,13 @@ POSSIBILITY OF SUCH DAMAGE.
             </inertial>
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/torso_v1/torso.dae" />
+                    <mesh filename="package://hsrb_description/meshes/torso_v1/torso.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/torso_v1/torso.stl" />
+                    <mesh filename="package://hsrb_description/meshes/torso_v1/torso.stl" />
                 </geometry>
             </collision>
         </link>

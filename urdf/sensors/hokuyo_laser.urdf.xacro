@@ -14,13 +14,13 @@
         <link name="${prefix}_range_sensor_link">
             <visual>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/sensors/laser.dae" />
+                    <mesh filename="package://hsrb_description/meshes/sensors/laser.dae" />
                 </geometry>
             </visual>
 
             <collision>
                 <geometry>
-                    <mesh filename="package://hsrb_meshes/meshes/sensors/laser.stl" />
+                    <mesh filename="package://hsrb_description/meshes/sensors/laser.stl" />
                 </geometry>
             </collision>
             <inertial>

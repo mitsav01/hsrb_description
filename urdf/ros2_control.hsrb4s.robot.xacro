@@ -29,10 +29,10 @@ POSSIBILITY OF SUCH DAMAGE.
 -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <xacro:macro name="ros2_contorl_robot">
+  <xacro:macro name="ros2_control_robot">
     <ros2_control name="hsrb" type="system">
       <hardware>
-        <plugin>hsrb_robot_hardware/HsrbHW</plugin>
+        <plugin>hsrb_description/HsrbHW</plugin>
       </hardware>
 
       <xacro:macro name="hsrb_joint" params="name min_angle max_angle motor_id reduction drive_mode velocity_limit gear_ratio torque_constant control_type:=ActiveJoint">

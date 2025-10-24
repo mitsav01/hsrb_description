@@ -4,7 +4,7 @@ project(hsrb_description)
 find_package(ament_cmake REQUIRED)
 
 install(
-  DIRECTORY launch robots urdf
+  DIRECTORY launch robots urdf meshes
   DESTINATION share/${PROJECT_NAME}
 )
 
